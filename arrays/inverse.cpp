@@ -1,3 +1,4 @@
+// ИНВЕРСИЯ. Переставить элементы массива в обратном порядке.
 #include <iostream>
 using namespace std;
 
