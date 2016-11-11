@@ -17,16 +17,13 @@ int main()
         cout << array[i] << " "; 
     cout << endl;  
  
-    for ( i = 0; i < size; i++) 
-    { 
-        int temp = array[i]; 
- 
-        for ( j = 0; j < size; j++) 
-            if(temp == array[j]) 
-                count++; 
-        if(count == 1) 
-            cout << temp << " "; 
-        count = 0; 
-    }  
-    cout << endl;
+ 	for (int i = 0; i < size; i++)
+	{
+		bool matching = false;
+		for (int j = 0; (j < i) && (matching == false); j++) {
+			if (array[i] == array[j]) matching = true;
+		}
+		if (!matching) cout<< array[i] << " ";
+	}	
+   
 }
