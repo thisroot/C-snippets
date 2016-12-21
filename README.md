@@ -2,4 +2,4 @@
 # C-snippets
 c++ snippents
 
-[### Arrays](arrays) 
+[Arrays](arrays) - функции для работы с массивами.
