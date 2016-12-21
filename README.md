@@ -2,4 +2,4 @@
 # C-snippets
 c++ snippents
 
-### Arrays
+[### Arrays](arrays) 
